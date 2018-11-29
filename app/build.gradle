@@ -10,6 +10,9 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+    jacoco {
+        version "0.7.1.201405082137"
+    }
     buildTypes {
         release {
             minifyEnabled false
